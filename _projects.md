@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: Projects
 description: Some description.
-permalink: /about/
+permalink: /projects/
 ---
 
 <img itemprop="image" class="img-rounded" src="{{ "/assets/img/author.jpg" | prepend: site.baseurl }}" alt="Erick Major dos Santos">

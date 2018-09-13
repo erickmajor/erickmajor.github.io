@@ -1,15 +1,14 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
+title: Erick Major | PHP Developer
 email: erick.major@yahoo.com.br
-description: Some text about your blog.
+description: A blog about development and other things.
 # baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://www.rossener.com" # the base hostname & protocol for your site
 url: "https://erickmajor.github.io/" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Erick
+username: Erick Major
 user_description: Some text about you.
 disqus_username: erickmajor
 
@@ -28,14 +27,25 @@ highlighter: rouge
 permalink: /:title/
 
 # Plugins
-gems:
+plugins:
   - jemoji
+
+collections:
+  projects:
+    project: true
+    output: true
 
 # Links to include in menu navigation
 # For external links add external: true
 links:
   - title: Home
     url: /
+  - title: Experience
+    url: /experience/
+  - title: Resume
+    url: /resume/
+  - title: Projects
+    url: /projects/
   - title: About
     url: /about/
   - title: Contact
